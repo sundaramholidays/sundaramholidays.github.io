@@ -112,6 +112,14 @@ p {
     background-color: transparent
 }
 
+.navbar-default.affix-top #brand-logo {
+    display: block;
+}
+
+.navbar-default.affix-top #brand-name {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .navbar-default {
         background-color: transparent;
@@ -136,7 +144,15 @@ p {
 
     .navbar-default.affix {
         background-color: #fff;
-        border-color: rgba(34, 34, 34, .1)
+        border-color: rgba(34, 34, 34, .1);
+    }
+
+    .navbar-default.affix #brand-logo {
+        display: none;
+    }
+
+    .navbar-default.affix #brand-name {
+        display: block;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
