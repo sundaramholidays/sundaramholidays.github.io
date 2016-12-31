@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head itemscope itemtype="http://schema.org/WebSite">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,9 @@
     <meta name="publisher" content="Gunjan Patel">
     <meta name="development" content="Tour Packages, Holiday Tour Package, honeymoon Tour Package, Corporate Tour Package, International Tour Packages, Domestic Tour Package, Marriage Preparation and Planning, Celebration, Catering, Event Planning, " >
 
-    <title>Sundaram Holidays - Best Tour Operator in Ahmedabad, Travel Agent, Wedding planner, Destination Wedding, Catering and Event Planner in Shahibaug Ahmedabad</title>
+    <title itemprop="name">Sundaram Holidays - Best Tour Operator in Ahmedabad, Travel Agent, Wedding planner, Destination Wedding, Catering and Event Planner in Shahibaug Ahmedabad</title>
+
+    <link rel="canonical" href="http://sundaramholidays.in/" itemprop="url">
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,12 +61,13 @@
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header" itemscope itemtype="http://schema.org/Organization">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
+                <meta content="http://sundaramholidays.in/" itemprop="url">
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="img/logo.jpg" title="Sundaram Holidays">
+                    <img itemprop="logo" src="http://sundaramholidays.in/img/logo.jpg" title="Sundaram Holidays">
                 </a>
             </div>
 
@@ -271,6 +274,17 @@
         ga('send', 'pageview');
 
     </script>
+    <script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "Person",
+	  "name": "Sundaram Holidays",
+	  "url": "http://sundaramholidays.in",
+	  "sameAs": [
+	    "http://www.facebook.com/SundaramHolidaysIndia"
+	  ]
+	}
+	</script>
 </body>
 
 </html>
