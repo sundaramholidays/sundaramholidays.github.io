@@ -156,7 +156,7 @@ p {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        color: #222
+        color: #3D2B99
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:focus, .navbar-default.affix .navbar-header .navbar-brand:hover {
@@ -457,7 +457,7 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 }
 
 .bg-primary {
-    background: #fdcc52;
+    background: #3D2B99;
     background: -webkit-linear-gradient(#fdcc52, #fdc539);
     background: linear-gradient(#fdcc52, #fdc539)
 }
