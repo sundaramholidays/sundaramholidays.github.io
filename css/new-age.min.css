@@ -458,8 +458,8 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 
 .bg-primary {
     background: #3D2B99;
-    background: -webkit-linear-gradient(#fdcc52, #fdc539);
-    background: linear-gradient(#fdcc52, #fdc539)
+    background: -webkit-linear-gradient(#3D2B99, #fdc539);
+    background: linear-gradient(#3D2B99, #fdc539)
 }
 
 .text-primary {
